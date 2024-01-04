@@ -280,9 +280,9 @@ export const WaitingIcon = (style: StyleProp<ImageStyle>): IconElement => {
   return Icon(source, style);
 };
 
-export const ClinicIcon = (style: StyleProp<ImageStyle>): IconElement => {
+export const TimeSale = (style: StyleProp<ImageStyle>): IconElement => {
   const source: IconSource = {
-    imageSource: require('./source/clinic-icon.png'),
+    imageSource: require('./source/time-sale-icon.png'),
   };
 
   return Icon(source, style);
@@ -324,16 +324,16 @@ export const BackIcon = (style: StyleProp<ImageStyle>): IconElement => {
   return Icon(source, style);
 };
 
-export const ServiceIcon = (style: StyleProp<ImageStyle>): IconElement => {
+export const VoucherIcon = (style: StyleProp<ImageStyle>): IconElement => {
   const source: IconSource = {
-    imageSource: require('./source/service-icon.png'),
+    imageSource: require('./source/voucher-icon.png'),
   };
 
   return Icon(source, style);
 };
-export const ServiceIcon1 = (style: StyleProp<ImageStyle>): IconElement => {
+export const LightningIcon = (style: StyleProp<ImageStyle>): IconElement => {
   const source: IconSource = {
-    imageSource: require('./source/service-icon-1.png'),
+    imageSource: require('./source/lightning-icon.png'),
   };
 
   return Icon(source, style);
@@ -345,9 +345,9 @@ export const CloseIcon = (style: StyleProp<ImageStyle>): IconElement => {
 
   return Icon(source, style);
 };
-export const BagIcon1 = (style: StyleProp<ImageStyle>): IconElement => {
+export const ShieldIcon = (style: StyleProp<ImageStyle>): IconElement => {
   const source: IconSource = {
-    imageSource: require('./source/Bag.png'),
+    imageSource: require('./source/shield-icon.png'),
   };
 
   return Icon(source, style);

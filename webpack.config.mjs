@@ -258,6 +258,7 @@ export default (env) => {
             loader: '@callstack/repack/assets-loader',
             options: {
               platform,
+              inline: true,
               devServerEnabled: Boolean(devServer),
               /**
                * Defines which assets are scalable - which assets can have

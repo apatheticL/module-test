@@ -7,7 +7,7 @@ export class ProductInfoModel {
   name: string;
   organizationInfo: OrgInformationModel;
   unitPrice: number;
-  originalPrice: number;
+  originalPrice?: number;
   discountAmount?: number;
   currency: string;
   discountPercent?: string;

@@ -1,8 +1,13 @@
 import {FC} from 'react';
 import {View} from 'react-native';
 import {ItemMenuComponent} from '@src/component/item.menu.component';
-import { ClinicIcon, FlashSaleIcon, ProductsIcon, ServiceIcon } from "@src/assets/icons";
-import { pxToPercentage } from "@src/core/libs/utils";
+import {
+  FlashSaleIcon,
+  ProductsIcon,
+  TimeSale,
+  VoucherIcon,
+} from '@src/assets/icons';
+import { Colors } from "@src/core/Colors";
 interface ListItemMenu {
   onFastSalePress: () => void;
   onProductPress: () => void;
@@ -11,26 +16,26 @@ interface ListItemMenu {
 }
 export const ListItemMenu: FC<ListItemMenu> = props => {
   return (
-    <View style={{flexDirection: 'row', height: pxToPercentage(150)}}>
+    <View style={{flexDirection: 'row'}}>
       <ItemMenuComponent
         imageSource={FlashSaleIcon}
         title={'FlashSale'}
         onPress={props.onFastSalePress}
       />
       <ItemMenuComponent
+        imageSource={VoucherIcon}
+        title={'Vouche Giảm Giá'}
+        onPress={props.onVoucher}
+      />
+      <ItemMenuComponent
         imageSource={ProductsIcon}
-        title={''}
+        title={'Sản phẩm'}
         onPress={props.onProductPress}
       />
       <ItemMenuComponent
-        imageSource={ClinicIcon}
+        imageSource={TimeSale}
         title={'Khung Giờ Săn Sale'}
         onPress={props.onTimageSale}
-      />
-      <ItemMenuComponent
-        imageSource={ServiceIcon}
-        title={'Vouche Giảm Giá'}
-        onPress={props.onVoucher}
       />
     </View>
   );

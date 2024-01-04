@@ -4,12 +4,12 @@ import {
   NativeStackNavigationProp,
 } from '@react-navigation/native-stack';
 
-import HomeScreen from '../screens/HomeScreen';
 import {ProductMarketPlaceContainer} from '@src/screens/products/ProductListScreen';
 import {ConfigServiceAddress} from '@src/core/model/config-service-url';
 import {AppConfigService} from '@src/core/app-config';
 import {Federated} from '@callstack/repack/client';
 import {productReducer} from '@src/store/product/reducer';
+import HomeScreen from '@src/screens/home/HomeScreen';
 
 export type MainStackParamList = {
   Home: undefined;

@@ -8,7 +8,7 @@ import {
   pxToPercentage,
   widthPxToPercentage,
 } from '../core/libs/utils';
-import {Colors} from '../core/Colors';
+import {Colors} from '@src/core/Colors';
 
 interface BannerComponentProps {
   images: string[];
@@ -17,7 +17,7 @@ interface BannerComponentProps {
 
 export const BannerComponent: FC<BannerComponentProps> = props => {
   return (
-    <View style={{ backgroundColor: 'red'}}>
+    <View style={styles.view}>
       <SliderBox
         images={props.images}
         dotStyle={styles.dot}
@@ -53,20 +53,26 @@ export const BannerComponent: FC<BannerComponentProps> = props => {
   );
 };
 const styles = StyleSheet.create({
+  view: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: pxToPercentage(180),
+  },
   dot: {
-    // width: widthPxToPercentage(10),
-    // height: widthPxToPercentage(10),
-    // borderRadius: pxToPercentage(30),
-    // backgroundColor: Colors['background-color'],
+    width: widthPxToPercentage(6),
+    height: widthPxToPercentage(6),
+    borderRadius: pxToPercentage(30),
+    backgroundColor: Colors['app-txt-auth-color'],
   },
   containerImage: {
     width: '100%',
-    padding: 0,
+    height: heightPxToPercentage(180),
+    overflow: 'hidden',
     borderRadius: pxToPercentage(32),
   },
   image: {
     width: '100%',
-    height: pxToPercentage(320),
+    height: '100%',
     borderRadius: pxToPercentage(32),
   },
 });

@@ -1,4 +1,5 @@
 import { isEmpty } from "@src/core/libs/utils";
+import moment from "moment";
 
 export const formatCurrency = (number?: number | undefined) => {
   try {
@@ -18,4 +19,8 @@ export const getThumbnailImageURL = (originalURL: string) => {
   }
 
   return `${originalURL}.thumbnail.jpg`;
+};
+export const getCurrentTime = () => {
+  const date = Date.now();
+  return moment(date).format('HH : mm : ss');
 };
