@@ -165,6 +165,9 @@ export default (env) => {
             /node_modules(.*[/\\])+react-native-pager-view/,
             /node_modules(.*[/\\])+axios\//,
             /node_modules(.*[/\\])+react-native-fast-image/,
+            /node_modules(.*[/\\])+react-native-reanimated/,
+            /node_modules(.*[/\\])+react-native-gesture-handler/,
+
           ],
           use: 'babel-loader',
         },
@@ -191,6 +194,8 @@ export default (env) => {
             /node_modules(.*[/\\])+react-native-pager-view/,
             /node_modules(.*[/\\])+axios\//,
             /node_modules(.*[/\\])+react-native-fast-image/,
+            /node_modules(.*[/\\])+react-native-reanimated/,
+            /node_modules(.*[/\\])+react-native-gesture-handler/,
 
           ],
           use: {
@@ -217,7 +222,10 @@ export default (env) => {
             /node_modules(.*[/\\])+react-native-pager-view/,
             /node_modules(.*[/\\])+axios\//,
             /node_modules(.*[/\\])+react-native-fast-image/,
-          ],
+            /node_modules(.*[/\\])+react-native-reanimated/,
+            /node_modules(.*[/\\])+react-native-gesture-handler/,
+
+            ],
           use: {
             loader: 'babel-loader',
             options: {

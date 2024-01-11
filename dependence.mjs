@@ -42,6 +42,14 @@ const deps = {
   'react-native-fast-image':{
     singleton: true,
     eager: true,
-    requiredVersion: '8.6.3',}
+    requiredVersion: '8.6.3',},
+  'react-native-reanimated':{
+    singleton: true,
+    eager: true,
+    requiredVersion: '3.6.1',},
+  'react-native-gesture-handler':{
+    singleton: true,
+    eager: true,
+    requiredVersion: '2.14.0',},
 };
 export {deps};

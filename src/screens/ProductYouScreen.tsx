@@ -1,21 +1,20 @@
 import React from 'react';
-import { Dimensions, FlatList, StyleSheet, View } from "react-native";
+import { FlatList, StyleSheet, View } from "react-native";
 import {DataProduct} from '@src/core/data';
 import {ItemProductComponent} from '@src/component/ItemProductComponent';
 import {ProductInfoModel} from '@src/core/model/product-model';
 import {pxToPercentage} from '@src/core/libs/utils';
-import { Tabs } from "react-native-collapsible-tab-view";
 
-const ProductForYouScreen = () => {
+const ProductYouScreen = () => {
   const itemPress = (item: ProductInfoModel) => {
     console.log(item);
   };
   return (
     <View style={[styles.container]}>
-      <Tabs.FlatList
+      <FlatList
         numColumns={3}
-        nestedScrollEnabled={false}
-        scrollEnabled={false}
+        nestedScrollEnabled
+        scrollEnabled={true}
         data={DataProduct}
         renderItem={({item, index}) => {
           return (
@@ -40,4 +39,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ProductForYouScreen;
+export default ProductYouScreen;

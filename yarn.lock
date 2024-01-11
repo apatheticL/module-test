@@ -1125,6 +1125,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-object-assign@npm:^7.16.7":
+  version: 7.23.3
+  resolution: "@babel/plugin-transform-object-assign@npm:7.23.3"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.22.5
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: c19eafedfe3197937aab79b4c6129f9fb7138b0173d3741d1068f589ee0e238f49b2d7a392d7fb8d1218f526f1279bda8e941b111f1698ea3e35e2d0ee60a94e
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-object-rest-spread@npm:^7.23.4":
   version: 7.23.4
   resolution: "@babel/plugin-transform-object-rest-spread@npm:7.23.4"
@@ -1545,7 +1556,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.13.0":
+"@babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.16.7":
   version: 7.23.3
   resolution: "@babel/preset-typescript@npm:7.23.3"
   dependencies:
@@ -1706,6 +1717,15 @@ __metadata:
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
   checksum: 2176d301cc258ea5c2324402997cf8134ebb212469c0d397591636cea8d3c02f2b3cf9fd58dcb748c7a0dade77ebdc1b10284fa63e608c033a1db52fddc69918
+  languageName: node
+  linkType: hard
+
+"@egjs/hammerjs@npm:^2.0.17":
+  version: 2.0.17
+  resolution: "@egjs/hammerjs@npm:2.0.17"
+  dependencies:
+    "@types/hammerjs": ^2.0.36
+  checksum: 8945137cec5837edd70af3f2e0ea621543eb0aa3b667e6269ec6485350f4d120c2434b37c7c30b1cf42a65275dd61c1f24626749c616696d3956ac0c008c4766
   languageName: node
   linkType: hard
 
@@ -2817,6 +2837,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/hammerjs@npm:^2.0.36":
+  version: 2.0.45
+  resolution: "@types/hammerjs@npm:2.0.45"
+  checksum: 40a29067c485a2a1f4345718104218fcf769adb1dbe091cdb6f679b3293dfa0798b207eb498ee7fd79ae8664c999117738fa0c01753f7465a639128f38c3ff5b
+  languageName: node
+  linkType: hard
+
 "@types/hoist-non-react-statics@npm:^3.3.1":
   version: 3.3.5
   resolution: "@types/hoist-non-react-statics@npm:3.3.5"
@@ -3277,13 +3304,15 @@ __metadata:
     prettier: ^2.4.1
     react: 18.2.0
     react-native: 0.72.3
+    react-native-collapsible-tab-view: ^6.2.1
     react-native-fast-image: 8.6.3
+    react-native-gesture-handler: ^2.14.0
     react-native-image-slider-box: ^2.0.7
-    react-native-pager-view: 6.2.3
+    react-native-pager-view: ^6.2.3
+    react-native-reanimated: 3.6.1
     react-native-safe-area-context: 4.5.0
     react-native-screens: 3.20.0
     react-native-status-bar-height: ^2.6.0
-    react-native-tab-view: 3.5.2
     react-redux: 8.1.2
     react-test-renderer: 18.2.0
     redux-devtools-extension: ~2.13.8
@@ -4627,6 +4656,13 @@ __metadata:
     invariant: "*"
     prop-types: "*"
   checksum: bba96622e196f650e782963598a2868a9c89b32e88fba1555fe1308d324eb387ab2a1f16235162b7bccc1900e8f43b7f8eae4f149a37f10cdf52e071990a7c9a
+  languageName: node
+  linkType: hard
+
+"dequal@npm:2.0.3":
+  version: 2.0.3
+  resolution: "dequal@npm:2.0.3"
+  checksum: 8679b850e1a3d0ebbc46ee780d5df7b478c23f335887464023a631d1b9af051ad4a6595a44220f9ff8ff95a8ddccf019b5ad778a976fd7bbf77383d36f412f90
   languageName: node
   linkType: hard
 
@@ -9418,7 +9454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:*, prop-types@npm:^15.6.1, prop-types@npm:^15.8.1":
+"prop-types@npm:*, prop-types@npm:^15.6.1, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -9554,6 +9590,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-collapsible-tab-view@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "react-native-collapsible-tab-view@npm:6.2.1"
+  dependencies:
+    use-deep-compare: ^1.1.0
+  peerDependencies:
+    "@shopify/flash-list": ">=1.0.0"
+    react: "*"
+    react-native: "*"
+    react-native-pager-view: "*"
+    react-native-reanimated: ">=2.15.0"
+  peerDependenciesMeta:
+    "@shopify/flash-list":
+      optional: true
+  checksum: 759a4af59bf70c28c0a5e3a25e4eaf864a510757dd4affc0071f141e77f73cb19ea35c450a5090858e4bfa7ebcd77d5ce4982feadcd9ab75dde2e34ead23c451
+  languageName: node
+  linkType: hard
+
 "react-native-fast-image@npm:8.6.3":
   version: 8.6.3
   resolution: "react-native-fast-image@npm:8.6.3"
@@ -9561,6 +9615,22 @@ __metadata:
     react: ^17 || ^18
     react-native: ">=0.60.0"
   checksum: 29289cb6b2eae0983c8922b22e2d9de3be07322bb7991c5def19f95eadefaedb0e308ff0b38cc1d0444e8bd4fe94a7621a99a2d3d9298100bcb60b3144677234
+  languageName: node
+  linkType: hard
+
+"react-native-gesture-handler@npm:^2.14.0":
+  version: 2.14.0
+  resolution: "react-native-gesture-handler@npm:2.14.0"
+  dependencies:
+    "@egjs/hammerjs": ^2.0.17
+    hoist-non-react-statics: ^3.3.0
+    invariant: ^2.2.4
+    lodash: ^4.17.21
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 8227d3f66f2f41932d3b7d12cc029d4ff1f57ba93249d71844cb1b75bae887cc50f9df516da52863746a2df8af4da013c1eb28b484caf181f782bcfe35bc59b0
   languageName: node
   linkType: hard
 
@@ -9573,13 +9643,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-pager-view@npm:6.2.3":
+"react-native-pager-view@npm:^6.2.3":
   version: 6.2.3
   resolution: "react-native-pager-view@npm:6.2.3"
   peerDependencies:
     react: "*"
     react-native: "*"
   checksum: e82a7a485045727c82b9d93d759118d5c1b12d11c3a0e3d644d638041a2bfb96e998472e245fa6e09806667ec188a8f1c7a951895ae88fc6ca614f80df939fc2
+  languageName: node
+  linkType: hard
+
+"react-native-reanimated@npm:3.6.1":
+  version: 3.6.1
+  resolution: "react-native-reanimated@npm:3.6.1"
+  dependencies:
+    "@babel/plugin-transform-object-assign": ^7.16.7
+    "@babel/preset-typescript": ^7.16.7
+    convert-source-map: ^2.0.0
+    invariant: ^2.2.4
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.0.0-0
+    "@babel/plugin-proposal-optional-chaining": ^7.0.0-0
+    "@babel/plugin-transform-arrow-functions": ^7.0.0-0
+    "@babel/plugin-transform-shorthand-properties": ^7.0.0-0
+    "@babel/plugin-transform-template-literals": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: 245e542de7496081c4c64fe219a6d33a4d7195502fd6e9c12374c04acb1318bdeb0c50889def5e213e3fe3cd0f6316b113a6b1c382715f1b6cf8a6a29f0cf4ab
   languageName: node
   linkType: hard
 
@@ -9623,19 +9714,6 @@ __metadata:
   version: 2.6.0
   resolution: "react-native-status-bar-height@npm:2.6.0"
   checksum: ee9e95ce30d346e113ecb68d6db66a5a2653263b03605428558e11956840bcc7498282c450a8bcc1c03ced9372ede6c4a5c51ab133c563492acedf328e8feecb
-  languageName: node
-  linkType: hard
-
-"react-native-tab-view@npm:3.5.2":
-  version: 3.5.2
-  resolution: "react-native-tab-view@npm:3.5.2"
-  dependencies:
-    use-latest-callback: ^0.1.5
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-pager-view: "*"
-  checksum: bd287e5543881aa662ee55418a3bd5dacb25033425a9fcb0fff21c3a3b96f956af1a77cd9bab4e7a8e94590080a5d8e3cb99cfa8613b19bf6da24bfc9b4942d4
   languageName: node
   linkType: hard
 
@@ -11253,7 +11331,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-latest-callback@npm:^0.1.5, use-latest-callback@npm:^0.1.7":
+"use-deep-compare@npm:^1.1.0":
+  version: 1.2.1
+  resolution: "use-deep-compare@npm:1.2.1"
+  dependencies:
+    dequal: 2.0.3
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: f65a880d0cf126484f5a5772c665f7d05ea7834e73d2a76a26c1c6a4101604f9f75fb836903a191ddca9eeafe5f8faa648cc712079046147affa1ea6b4b84d2f
+  languageName: node
+  linkType: hard
+
+"use-latest-callback@npm:^0.1.7":
   version: 0.1.9
   resolution: "use-latest-callback@npm:0.1.9"
   peerDependencies:

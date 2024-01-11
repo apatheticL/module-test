@@ -10,6 +10,7 @@ import {AppConfigService} from '@src/core/app-config';
 import {Federated} from '@callstack/repack/client';
 import {productReducer} from '@src/store/product/reducer';
 import HomeScreen from '@src/screens/home/HomeScreen';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 export type MainStackParamList = {
   Home: undefined;
@@ -39,16 +40,18 @@ const MainNavigator = (props: ComponentProps) => {
     addNewReducer('products', productReducer);
   };
   return (
-    <Main.Navigator
-      screenOptions={{
-        headerShown: false,
-      }}>
-      <Main.Screen name="Home" component={HomeScreen} />
-      <Main.Screen
-        name="productMarketPlaceContainer"
-        component={ProductMarketPlaceContainer}
-      />
-    </Main.Navigator>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <Main.Navigator
+        screenOptions={{
+          headerShown: false,
+        }}>
+        <Main.Screen name="Home" component={HomeScreen} />
+        <Main.Screen
+          name="productMarketPlaceContainer"
+          component={ProductMarketPlaceContainer}
+        />
+      </Main.Navigator>
+    </GestureHandlerRootView>
   );
 };
 

@@ -96,3 +96,341 @@ export const SaleProduct: ProductInfoModel[] = [
   },
 ];
 
+export const DataProduct: ProductInfoModel[] = [
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+  {
+    id: '1',
+    name: 'Sữa Tắm Dạng Kem Dưỡng Ẩm Guardian Essential Cherry Blossom Moisturising Shower Cream Chiết Xuất Anh Đào 1000ml',
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 65000,
+    currency: 'đ',
+    // originalPrice: 279000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/ff/kf/S60f00dd46542497a98f708b6f9f1ea455.jpg_200x200q80.jpg',
+  },
+  {
+    id: '2',
+    name: 'Áo dài cách tân gấm tơ mềm phối cúc bọc',
+    organizationInfo: {
+      id: '2',
+      name: 'NCC 3',
+    },
+    unitPrice: 64000,
+    currency: 'đ',
+    originalPrice: undefined,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a5347c66d2ba397ef8a96c0d2143134.jpg_200x200q80.jpg',
+  },
+  {
+    id: '1',
+    name: "Guima silk dress women's mid-length summer new large size loose belly cover high-end mulberry silk mother's dress",
+    organizationInfo: {
+      id: '1',
+      name: 'NCC A',
+    },
+    unitPrice: 130000,
+    currency: 'đ',
+    // originalPrice: 168000,
+    productType: 1,
+    imageUrl:
+      'https://lzd-img-global.slatic.net/g/p/5a728e9eea393e3000a13a0c6fadab5e.png_200x200q80.png',
+  },
+];

@@ -1,53 +1,35 @@
 import React, {useState} from 'react';
-import {useWindowDimensions} from 'react-native';
-import {SceneMap, TabBar, TabView} from 'react-native-tab-view';
 import ProductForYouScreen from './ProductForYouScreen';
 import SaleProductLastMonth from './SaleProductLastMonth';
 import ProductFreeShipScreen from './ProductFreeShipScreen';
 import ProductCoinScreen from './ProductCoinScreen';
+import {Tabs} from 'react-native-collapsible-tab-view';
+interface TabBarHome {
+  header: () => any;
+}
+const HEADER_HEIGHT = 600;
 
-const TabBarHome = () => {
-  const layout = useWindowDimensions();
-  const renderScene = SceneMap({
-    productForYou: ProductForYouScreen,
-    lastMonth: SaleProductLastMonth,
-    freeShip: ProductFreeShipScreen,
-    coin: ProductCoinScreen,
-  });
-  const [index, setIndex] = useState(0);
-  const [routes] = React.useState([
-    {key: 'productForYou', title: 'Product For You'},
-    {key: 'lastMonth', title: 'Last Month'},
-    {key: 'freeShip', title: 'Free Ship'},
-    {key: 'coin', title: 'Coin'},
-  ]);
+const TabBarHome = (props: TabBarHome) => {
 
   return (
-    <TabView
-      navigationState={{index: index, routes: routes}}
-      renderScene={renderScene}
-      onIndexChange={index => {
-        console.log(index, 'index');
-        setIndex(index);
-      }}
-      initialLayout={{width: layout.width}}
-      renderTabBar={props => (
-        <TabBar
-          {...props}
-          getLabelText={({route: {title}}) => title}
-          indicatorStyle={{backgroundColor: 'white'}}
-          tabStyle={{backgroundColor: 'blue'}}
-          onTabLongPress={({route}) => {
-            console.log('log pewretewrsc', route.key);
-            props.jumpTo(route.key);
-          }}
-          onTabPress={({route, preventDefault}) => {
-            console.log('stert', route.key);
-            props.jumpTo(route.key);
-          }}
-        />
-      )}
-    />
+    <Tabs.Container
+      renderHeader={props.header}
+      headerHeight={HEADER_HEIGHT}
+      lazy={true}
+    >
+      <Tabs.Tab name={'Product For You'} key={'productForYou'}>
+        <ProductForYouScreen />
+      </Tabs.Tab>
+      <Tabs.Tab name={'Last Month'} key={'lastMonth'}>
+        <SaleProductLastMonth />
+      </Tabs.Tab>
+      <Tabs.Tab name={'Free Ship'} key={'freeShip'}>
+        <ProductFreeShipScreen />
+      </Tabs.Tab>
+      <Tabs.Tab name={'Coin'} key={'coin'}>
+        <ProductCoinScreen />
+      </Tabs.Tab>
+    </Tabs.Container>
   );
 };
 
